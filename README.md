@@ -29,32 +29,32 @@
 </head>
 <body>
 
-<h1>Soulmate System v4.0</h1>
-<p class="highlight">Release: 4 years of connection ❤️</p>
+<h1>Система родственных душ v4.0</h1>
+<p class="highlight">Срок годности: 4 года с момента подключения ❤️</p>
 
 <div class="block">
-  <h2>System Log</h2>
-  <p id="log-connection">connection: established</p>
-  <p id="log-trust">trust: growing</p>
-  <p id="log-distance">distance: ignored</p>
-  <button onclick="rerunSystem()">Rerun System</button>
+  <h2>Системный журнал</h2>
+  <p id="log-connection">соединение: установлено</p>
+  <p id="log-trust">доверие: растет</p>
+  <p id="log-distance">расстояние: игнорируется</p>
+  <button onclick="rerunSystem()">Система повторного запуска</button>
 </div>
 
 <div class="block">
-  <h2>User Definitions</h2>
-  <p>котик → ты</p>
-  <p>птичка → Илья</p>
+  <h2>Определения пользователей</h2>
+  <p>котик → я</p>
+  <p>птичка → ты</p>
 </div>
 
 <div class="block">
-  <h2>Soulmate Riddle</h2> <!-- Блок с загадкой -->
+  <h2>Загадка для родственной души</h2> <!-- Блок с загадкой -->
   <p>Загадка: Я — то, что соединяет котика и птичку, даже на расстоянии. Что я?</p>
   <input type="text" id="riddle-answer" placeholder="Ваш ответ">
   <button onclick="checkRiddle()">Проверить</button>
   <div id="secret">
-    <p>Правильно! Connection unlocked! Мы — soulmates forever ❤️</p>
+    <p>Правильно! Связь восстановлена! Мы — родственные души навсегда ❤️</p>
     <!-- Здесь добавлено предложенное изображение -->
-    <img src="https://i.imgur.com/0tZ0ZfD.png" alt="Сердечко soulmate">
+    <img src="https://postimg.cc/1nWyqw3T" alt="Сердечко soulmate">
   </div>
 </div>
 
