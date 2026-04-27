@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -54,21 +54,21 @@
   <div id="secret">
     <p>Правильно! Связь восстановлена! Мы — родственные души навсегда ❤️</p>
     <!-- Здесь добавлено предложенное изображение -->
-    <img src="https://postimg.cc/1nWyqw3T" alt="Сердечко soulmate">
+    <img src="https://i.postimg.cc/3NhNzZ5K/bird-and-cat-soul-connection.webp" alt="Сердечко soulmate">
   </div>
 </div>
 
 <div class="block">
-  <h2>Final</h2>
-  <p>rerun()</p>
+  <h2>Финал</h2>
+  <p>повторный запуск</p>
 </div>
 
 <script>
   // Функция для rerun (динамика)
   function rerunSystem() {
-    const statuses = ['max', 'strong', 'eternal', 'zero', 'connected'];
-    document.getElementById('log-trust').textContent = 'trust: ' + statuses[Math.floor(Math.random() * statuses.length)];
-    document.getElementById('log-distance').textContent = 'distance: ' + statuses[Math.floor(Math.random() * statuses.length)];
+    const statuses = ['максимально', 'сильно', 'вечно', 'ноль', 'подключено'];
+    document.getElementById('log-trust').textContent = 'доверие: ' + statuses[Math.floor(Math.random() * statuses.length)];
+    document.getElementById('log-distance').textContent = 'дистанция: ' + statuses[Math.floor(Math.random() * statuses.length)];
     alert('System rerunned! New logs generated.');
   }
 
