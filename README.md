@@ -66,7 +66,7 @@
 <script>
   // Функция для rerun (динамика)
   function rerunSystem() {
-    const statuses = ['максимально', 'сильно', 'вечно', 'ноль', 'подключено'];
+    const statuses = ['максимально', 'сильно', 'вечно', 'ноль'];
     document.getElementById('log-trust').textContent = 'доверие: ' + statuses[Math.floor(Math.random() * statuses.length)];
     document.getElementById('log-distance').textContent = 'дистанция: ' + statuses[Math.floor(Math.random() * statuses.length)];
     alert('System rerunned! New logs generated.');
